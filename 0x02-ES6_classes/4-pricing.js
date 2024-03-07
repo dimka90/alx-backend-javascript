@@ -9,14 +9,14 @@ export default class Pricing {
     this._currency = currency;
   }
 
-  // Code
+  // amount
   get amount() {
-    return this._code;
+    return this._amount;
   }
 
   set amount(newAmount) {
     if (typeof newAmount !== 'number' || newAmount < 0) throw new TypeError('Amount must be a number');
-    this._newAmount = newAmount;
+    this._amount = newAmount;
   }
 
   // Currency getter

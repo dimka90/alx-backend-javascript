@@ -1,11 +1,11 @@
 export default class HolbertonCourse {
   constructor(name, length, students = []) {
     // Performing a validation on each instance vairable
-    if (typeof (name) !== 'string' || name.trim() === '') {
+    if (typeof name !== 'string' || name.trim() === '') {
       throw new TypeError('Name must be a string');
     }
 
-    if (typeof (length) !== 'number' || length < 0) {
+    if (typeof length !== 'number' || length < 0) {
       throw new TypeError('Length must be a number');
     }
 

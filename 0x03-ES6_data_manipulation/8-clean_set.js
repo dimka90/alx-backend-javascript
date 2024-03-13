@@ -1,5 +1,5 @@
 export default function cleanSet(set, startString) {
-  let result = ' ';
+  let result = '';
 
   // looping through the values of the set
 

@@ -14,6 +14,6 @@ const userinput = readline.createInterface(
 
 userinput.question('Welcome to Holberton School, what is your name?', (input) => {
   console.log('Your name is: ', input);
-
   userinput.close();
+  console.log('This important software is now closing ');
 });

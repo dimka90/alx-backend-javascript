@@ -1,4 +1,5 @@
-function displayMessage(Message) {
-  console.log(Message);
+function displayMessage(data) {
+  console.log(data);
 }
+
 module.exports = displayMessage;

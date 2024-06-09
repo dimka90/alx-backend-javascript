@@ -1,5 +1,5 @@
 
-function getResponseFromAPI() 
+export default function getResponseFromAPI() 
 { 
     const value = true
 return new Promise((resolve, reject) =>{
